@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.3" timestamp="2013-01-17T23:01:34.949">
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.5/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/compute/FGCPRestClientModule.java">
+<violation beginline="355" endline="355" begincolumn="37" endcolumn="66" rule="AvoidThreadGroup" ruleset="Basic Rules" package="org.jclouds.fujitsu.fgcp.compute" class="FGCPRestClientModule" method="provideKeyStore" externalInfoUrl="http://pmd.sourceforge.net/rules/basic.html#AvoidThreadGroup" priority="3">
+Avoid using java.lang.ThreadGroup; it is not thread safe
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.5/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/compute/strategy/FGCPComputeServiceAdapter.java">
+<violation beginline="181" endline="181" begincolumn="14" endcolumn="17" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="org.jclouds.fujitsu.fgcp.compute.strategy" class="FGCPComputeServiceAdapter" method="getNode" variable="fwId" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'fwId'.
+</violation>
+</file>
+<file name="/scratch/jenkins/workspace/jclouds-maven-site-1.5.5/labs/fgcp/src/main/java/org/jclouds/fujitsu/fgcp/filters/RequestAuthenticator.java">
+<violation beginline="85" endline="100" begincolumn="11" endcolumn="4" rule="UnusedFormalParameter" ruleset="Unused Code Rules" package="org.jclouds.fujitsu.fgcp.filters" class="RequestAuthenticator" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedFormalParameter" priority="3">
+Avoid unused constructor parameters such as 'signatureWire'.
+</violation>
+</file>
+</pmd>
